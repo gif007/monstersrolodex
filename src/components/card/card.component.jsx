@@ -1,6 +1,8 @@
 import './card.styles.css';
 
 export const Card = (props) => (
+    // Return a card containing img, name and email
+    // Key is added in card-list component
     <div className='card-container'>
         <img
             alt="monster"
